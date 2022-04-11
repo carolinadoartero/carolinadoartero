@@ -1,0 +1,40 @@
+.contenedor-cita {
+  background-color: rgb(231, 192, 146);
+  padding-top: 2%;
+  padding-bottom: 1%;
+  width: 75%;
+  margin: auto;
+}
+
+.titulo-astrologia {
+  color: #821309;
+}
+
+.cita {
+  font-style: italic;
+}
+
+.contenedor-botones {
+  margin-block: 8%;
+}
+
+.botones {
+  margin-inline: 10%;
+  color: #ff7300;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.botones:hover {
+  color: #ff8b2c;
+}
+
+.img-redondeada {
+  border-radius: 1.5%;
+}
+
+@media (max-width: 766px) {
+  .botones {
+    margin-inline: 5%;
+  }
+}

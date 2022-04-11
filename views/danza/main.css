@@ -1,0 +1,148 @@
+.subtitulo-formacion {
+  color: #821309;
+}
+
+.link-prensa {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.link-prensa:hover {
+  color: #0a58ca;
+}
+
+ul {
+  color: #ec7418;
+}
+
+.subtitulo-obra {
+  color: #e26a0d;
+}
+
+span {
+  color: #212529;
+}
+
+.card {
+  background: rgb(238, 206, 169);
+  background: radial-gradient(
+    circle,
+    rgba(238, 206, 169, 1) 0%,
+    rgba(240, 175, 100, 1) 100%
+  );
+}
+
+.imagenes {
+  border-radius: 1.5%;
+}
+
+.img-mama-posters {
+  border-radius: 1.5%;
+}
+
+.img-mama {
+  width: 19.5%;
+  border-radius: 1.5%;
+}
+
+.img-mama-horizontal {
+  width: 22.9%;
+  /* height: 230px; */
+  border-radius: 1.5%;
+}
+
+.img-mama-vertical {
+  width: 14.25%;
+  /* height: 230px; */
+  border-radius: 1.5%;
+}
+
+.img-viaje {
+  width: 24%;
+  margin: 0.1%;
+  border-radius: 1.5%;
+}
+
+.img-floresta {
+  width: 93%;
+  border-radius: 1.5%;
+}
+
+.centrar-contenido {
+  text-align: center;
+}
+
+.img-derecha {
+  border-radius: 1.5%;
+}
+
+.img-izquierda {
+  border-radius: 1.5%;
+}
+
+.img-izquierda-raices {
+  border-radius: 1.5%;
+}
+
+.img-derecha-raices {
+  border-radius: 1.5%;
+}
+
+.img-desaparecidos {
+  width: 90%;
+}
+
+.img-prensa {
+  border-radius: 1.5%;
+}
+
+.margin-left-titulo {
+  margin-left: 9%;
+}
+
+@media (max-width: 766px) {
+  .img-w100-responsive {
+    width: 100% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+
+  .epopeya-texto-responsive {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .armonia-titulo-responsive {
+    margin-top: 3% !important;
+  }
+
+  .armonia-texto-responsive {
+    margin-top: 0% !important;
+  }
+
+  .d-none-responsive {
+    display: none;
+  }
+
+  .margin-top-responsive {
+    margin-top: 10% !important;
+  }
+}
+
+@media (min-width: 766px) {
+  .img-izquierda {
+    margin-left: 20%;
+  }
+
+  .img-derecha {
+    margin-right: 20%;
+    margin-left: -14%;
+  }
+
+  .img-izquierda-raices {
+    margin-left: 9%;
+  }
+  .img-derecha-raices {
+    margin-left: -15%;
+  }
+}

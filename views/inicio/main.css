@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+.titulo {
+  color: #821309;
+  font-size: 48px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.contenedor-body {
+  max-width: 85%;
+  margin-top: 4% !important;
+}
+
+.btn-cards {
+  background-color: #d8782f;
+  border-color: #d8782f;
+}
+
+.btn-cards:hover {
+  background-color: #ee8c41;
+  border-color: #ee8c41;
+}
+
+/* .btn-cards:target, .btn-cards:active, .btn-cards:focus {
+    background-color: #f1954e;
+    border-color: #f1954e !important;
+    box-shadow: 0 0 0 0rem rgb(0 0 0 / 0%);
+} */
+
+.carousel-control-prev {
+  left: 8%;
+}
+
+.carousel-control-next {
+  right: 8%;
+}
+
+.imagen-carousel {
+  height: 400px;
+}
+
+.margen-items-inicio {
+  margin-bottom: 2.5%;
+}
+
+/* .img-hover-leave {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.img-hover-enter {
+  -webkit-transform: scale(1.5);
+  transform: scale(2);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+} */
+
+@media (max-width: 766px) {
+  .contenedor-body {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 9% !important;
+  }
+
+  .imagen-portada {
+    width: 100%;
+  }
+}

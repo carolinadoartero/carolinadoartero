@@ -1,0 +1,46 @@
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: 0.9rem; /* change this to whatever height you want it */
+}
+
+ul {
+  color: #ec7418;
+}
+
+.sub-lista {
+  color: #ff6f00;
+  list-style: circle;
+}
+
+span {
+  color: #212529;
+}
+
+.imagen-lateral {
+  width: 90%;
+  margin-bottom: 5%;
+  border-radius: 3%;
+}
+
+.imagen-inferior {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 3%;
+}
+
+@media (max-width: 766px) {
+  .imagen-lateral {
+    width: 100% !important;
+    margin-top: 1%;
+  }
+
+  .imagen-inferior {
+    width: 100% !important;
+    margin-top: 1%;
+  }
+
+  .img-responsive {
+    text-align: center !important;
+  }
+}

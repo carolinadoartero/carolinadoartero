@@ -1,0 +1,43 @@
+.subtitulo-formacion {
+  color: #821309;
+}
+
+ul {
+  color: #ec7418;
+}
+
+.sub-lista {
+  color: #ff6f00;
+  list-style: circle;
+}
+
+span {
+  color: #212529;
+}
+
+.margen-texto {
+  margin-right: 10%;
+}
+
+.imagen-lateral {
+  width: 100%;
+  border-radius: 1.5%;
+}
+
+@media (min-width: 766px) {
+  .imagen {
+    border-radius: 10%;
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 766px) {
+  .imagen {
+    display: none;
+  }
+
+  .img-responsive {
+    text-align: center !important;
+  }
+}

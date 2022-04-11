@@ -1,0 +1,13 @@
+.subtitulo {
+  color: #ff7300;
+}
+
+.redondeo-img {
+  border-radius: 3%;
+}
+
+@media (max-width: 766px) {
+  .centrar-img {
+    width: 100%;
+  }
+}

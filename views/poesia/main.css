@@ -1,0 +1,88 @@
+.card {
+  background: rgb(248, 235, 213);
+}
+
+.centrar-contenido {
+  text-align: center;
+}
+
+.margen-img-titulos {
+  margin-left: 2.55rem !important;
+}
+
+.separador-naranja {
+  color: rgb(224, 95, 9);
+  height: 15px;
+}
+
+.contenedor-resenas {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.subtitulo-libro {
+  color: #821309;
+}
+
+hr:not([size]) {
+  height: 2px;
+}
+
+/* .img-pies-desnudos {
+    width: 90%;
+} */
+
+@media (min-width: 766px) {
+  .img-izquierda {
+    margin-left: 3%;
+  }
+
+  .img-derecha {
+    margin-left: -3%;
+  }
+}
+
+@media (max-width: 766px) {
+  .titulos-responsive {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .subtitulos-responsive {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .img-w100-responsive {
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 5% !important;
+  }
+
+  .d-none-responsive {
+    display: none;
+  }
+
+  .img-agrandar-hover {
+    -webkit-transform: scale(1) !important;
+    transform: scale(1) !important;
+  }
+
+  .img-agrandar-hover:hover {
+    -webkit-transform: scale(1) !important;
+    transform: scale(1) !important;
+    /* z-index: 999 !important; */
+  }
+
+  .container-w100-responsive {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    margin-top: 0% !important;
+  }
+
+  .margin-responsive {
+    margin: auto !important;
+  }
+}
